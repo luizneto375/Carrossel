@@ -1,7 +1,7 @@
 .carousel {
     perspective: 1200px;
     background-color: #100000;
-    padding-top: 10px;
+    padding-top: 3%;
     font-size:0;
     margin-bottom: 3rem;
     overflow: hidden;
@@ -9,13 +9,13 @@
 
 #carr {
     transform-style: preserve-3d;
-    height: 300px;
+    height: 400px;
     transform-origin: 50% 50% -500px;
     transition: 1s;
 }
 #carr img {
-    width: 40%; 
-    max-width: 425px;
+    width: 100vh; 
+    max-width: 525px;
     position: absolute; 
     left: 30%;
     transform-origin: 50% 50% -500px;
@@ -27,32 +27,37 @@
 }
 
 #carr img:nth-child(2) {
-    transform: rotateY(-45deg);
+    transform: rotateY(deg);
 }
 
 #carr img:nth-child(3) {
-    transform: rotateY(-90deg);
+    transform: rotateY(deg);
 }
 
 .carr img:nth-child(4) {
-    transform: rotateY(-135deg);
+    transform: rotateY(deg);
 }
 
 #carr img:nth-child(5) {
-    transform: rotateY(-180deg);
+    transform: rotateY(deg);
 }
 
 .carrouse img:nth-child(6) {
-    transform: rotateY(225deg);
+    transform: rotateY(deg);
 }
 
 .carrouse img:nth-child(7) {
-    transform: rotateY(-270deg);
+    transform: rotateY(deg);
 }
 
 #carr img:nth-child(8) {
-    transform: rotateY(-315deg);
+    transform: rotateY(deg);
 }
+
+#carr img:nth-child(9) {
+    transform: rotateY(deg);
+}
+
 
 .carousel ~ span {
     color: #fff;
