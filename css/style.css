@@ -13,6 +13,11 @@ figure#carrouse {
     transform-origin: 50% 50% -500px;
     transition: 1s;
 }
-figure#carrouse {
-    
+figure#carrouse img {
+    width: 40%; 
+    max-width: 425px;
+    position: absolute; 
+    left: 30%;
+    transform-origin: 50% 50% -500px;
+    outline: 1px solid transparent; 
 }
