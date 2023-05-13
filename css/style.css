@@ -7,13 +7,13 @@
     overflow: hidden;
 }
 
-.carr {
+#carr {
     transform-style: preserve-3d;
     height: 300px;
     transform-origin: 50% 50% -500px;
     transition: 1s;
 }
-.carr img {
+#carr img {
     width: 40%; 
     max-width: 425px;
     position: absolute; 
@@ -22,15 +22,15 @@
     outline: 1px solid transparent; 
 }
 
-.carr img:nth-child(1) {
+#carr img:nth-child(1) {
     transform: rotateY(0deg);
 }
 
-.carr img:nth-child(2) {
+#carr img:nth-child(2) {
     transform: rotateY(-45deg);
 }
 
-.carr img:nth-child(3) {
+#carr img:nth-child(3) {
     transform: rotateY(-90deg);
 }
 
@@ -38,7 +38,7 @@
     transform: rotateY(-135deg);
 }
 
-.carr img:nth-child(5) {
+#carr img:nth-child(5) {
     transform: rotateY(-180deg);
 }
 
@@ -50,7 +50,7 @@
     transform: rotateY(-270deg);
 }
 
-.carr img:nth-child(8) {
+#carr img:nth-child(8) {
     transform: rotateY(-315deg);
 }
 
