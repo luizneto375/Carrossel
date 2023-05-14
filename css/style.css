@@ -1,9 +1,10 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
+}
 
 .carousel {
     perspective: 1200px;
@@ -12,6 +13,7 @@
     font-size:0;
     margin-bottom: 3rem;
     overflow: hidden;
+   
 }
 
 #carr {
@@ -19,10 +21,11 @@
     height: 300px;
     transform-origin: 50% 50% -500px;
     transition: 1s;
+  
 }
 #carr img {
-    width: 45%; 
-    max-width: 525px;
+    width: 40%; 
+    max-width: 425px;
     position: absolute; 
     left: 30%;
     transform-origin: 50% 50% -500px;
@@ -119,9 +122,3 @@
     cursor: pointer;   
 }
 
-@media screen and (max-width: 768px) {
-    .carousel img {
-        width: 100%;
-        flex-direction: column;
-    }
-}
