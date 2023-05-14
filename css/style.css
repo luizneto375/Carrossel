@@ -7,6 +7,7 @@
 }
 
 .carousel {
+    width: 100%;
     perspective: 1200px;
     background-color: #100000;
     padding-top: 10%;
@@ -18,7 +19,7 @@
 
 #carr {
     transform-style: preserve-3d;
-    height: 300px;
+    height: 450px;
     transform-origin: 50% 50% -500px;
     transition: 1s;
   
@@ -35,41 +36,42 @@
 
 #carr img:nth-child(1) {
     transform: rotateY(0deg);
-    
+    gap: 1fr;
 }
 
 #carr img:nth-child(2) {
-    transform: rotateY(-45deg);
-    
+    transform: rotateY(-50deg);
+    gap: 1fr;
 }
 
 #carr img:nth-child(3) {
-    transform: rotateY(-90deg);
-   
+    transform: rotateY(-101deg);
+    gap: 1fr;
 }
 
 #carr img:nth-child(4) {
-    transform: rotateY(-135deg);
-   
+    transform: rotateY(-153deg);
+    gap: 1fr;
 }
 
 #carr img:nth-child(5) {
-    transform: rotateY(-180deg);
-   
+    transform: rotateY(-205deg);
+    gap: 1fr;
 }
 
 #carr img:nth-child(6) {
-    transform: rotateY(-225deg);
-  
+    transform: rotateY(-256deg);
+    gap: 1fr;
 }
 
 #carr img:nth-child(7) {
-    transform: rotateY(-270deg);
+    transform: rotateY(-308deg);
+    gap: 1fr;
 }
 
-#carr img:nth-child(8) {
-    transform: rotateY(-315deg);
-}
+
+
+
 
 .im01:hover {
     border-radius: 50% 95%;
@@ -80,7 +82,7 @@
 }
 
 .im03:hover {
-    border-radius: 45% 10px;
+    border-radius: 55%;
 }
 
 .im04:hover {
@@ -99,9 +101,7 @@
     border-radius: 98% 10%;
 }
 
-.im08:hover {
-    border: 45% 84% 15px;
-}
+
 
 .carousel ~ span {
     color: #fff;

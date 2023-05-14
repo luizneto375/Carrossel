@@ -1,4 +1,4 @@
-var angle = 0;
+let angle = 0;
 function gallerycar(sign) {
     carr = document.querySelector("#carr");
 if (!sign) { angle = angle + 45; } else {
