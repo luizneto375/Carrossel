@@ -22,6 +22,10 @@
     outline: 1px solid transparent; 
 }
 
+img {
+   
+}
+
 #carr img:nth-child(1) {
     transform: rotateY(0deg);
 }
@@ -69,6 +73,7 @@
 }
 
 .carousel ~ span:hover {
-    color: #888;
+    color: rgb(123, 117, 117);
     cursor: pointer;
+    
 }
