@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .carousel {
     perspective: 1200px;
     background-color: #100000;
@@ -22,32 +29,35 @@
     outline: 1px solid transparent; 
 }
 
-img {
-   
-}
 
 #carr img:nth-child(1) {
     transform: rotateY(0deg);
+    
 }
 
 #carr img:nth-child(2) {
     transform: rotateY(-45deg);
+    
 }
 
 #carr img:nth-child(3) {
     transform: rotateY(-90deg);
+   
 }
 
 #carr img:nth-child(4) {
     transform: rotateY(-135deg);
+   
 }
 
 #carr img:nth-child(5) {
     transform: rotateY(-180deg);
+   
 }
 
 #carr img:nth-child(6) {
     transform: rotateY(-225deg);
+  
 }
 
 #carr img:nth-child(7) {
@@ -56,6 +66,26 @@ img {
 
 #carr img:nth-child(8) {
     transform: rotateY(-315deg);
+}
+
+.im01:hover {
+    border-radius: 50% 95%;
+}
+
+.im02:hover {
+    border-radius: 32px 64px;
+}
+
+.im03:hover {
+    border-radius: 45% 10px;
+}
+
+.im04:hover {
+    border-radius: 50%;
+}
+
+.im05:hover {
+   
 }
 
 .carousel ~ span {
@@ -74,6 +104,12 @@ img {
 
 .carousel ~ span:hover {
     color: rgb(123, 117, 117);
-    cursor: pointer;
-    
+    cursor: pointer;   
+}
+
+@media screnn and (max-width: 768px) {
+    .carousel #carr img {
+        width: 100%;
+        flex-direction: column;
+    }
 }
