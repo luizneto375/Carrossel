@@ -36,41 +36,38 @@
 
 #carr img:nth-child(1) {
     transform: rotateY(0deg);
-    gap: 1fr;
+   
 }
 
 #carr img:nth-child(2) {
     transform: rotateY(-50deg);
-    gap: 1fr;
+    
 }
 
 #carr img:nth-child(3) {
     transform: rotateY(-101deg);
-    gap: 1fr;
+   
 }
 
 #carr img:nth-child(4) {
     transform: rotateY(-153deg);
-    gap: 1fr;
+   
 }
 
 #carr img:nth-child(5) {
     transform: rotateY(-205deg);
-    gap: 1fr;
+    
 }
 
 #carr img:nth-child(6) {
     transform: rotateY(-256deg);
-    gap: 1fr;
+    
 }
 
 #carr img:nth-child(7) {
     transform: rotateY(-308deg);
-    gap: 1fr;
+    
 }
-
-
-
 
 
 .im01:hover {
