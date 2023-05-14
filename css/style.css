@@ -85,7 +85,19 @@
 }
 
 .im05:hover {
-   
+    border-radius: 45px 78px; 
+}
+
+.im06:hover {
+    border-radius: 78% 45%;
+}
+
+.im07:hover {
+    border-radius: 98% 10%;
+}
+
+.im08:hover {
+    border: 45% 84% 15px;
 }
 
 .carousel ~ span {
