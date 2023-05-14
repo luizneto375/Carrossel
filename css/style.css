@@ -119,8 +119,8 @@
     cursor: pointer;   
 }
 
-@media screnn and (max-width: 768px) {
-    .carousel #carr img {
+@media screen and (max-width: 768px) {
+    .carousel img {
         width: 100%;
         flex-direction: column;
     }
