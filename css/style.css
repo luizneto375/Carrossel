@@ -19,7 +19,7 @@
 
 #carr {
     transform-style: preserve-3d;
-    height: 450px;
+    height: 400px;
     transform-origin: 50% 50% -500px;
     transition: 1s;
   
